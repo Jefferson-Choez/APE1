@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guayaquil&#8212;</title>
+    <title>Notebooks with MyST Markdown &#8212; My sample book</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -17,6 +17,10 @@
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
     
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
@@ -49,7 +53,6 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Markdown Files" href="markdown.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -73,9 +76,12 @@ const thebe_selector_output = ".output, .cell_output"
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
         
+      
+      
       <img src="_static/logo.png" class="logo" alt="logo">
-      <a href="index.html">Inicio</a>
-    
+      
+      
+      <h1 class="site-logo" id="site-title">My sample book</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -84,31 +90,16 @@ const thebe_selector_output = ".output, .cell_output"
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
- <li class="toctree-l1 current">
-   <h3>Actividades de Aventura</h3>
-  <a class="reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Ecuador Travel
   </a>
  </li>
 </ul>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="canopy.html">
-   Canopy
-  </a>
- </li>
-
-  <li class="toctree-l1">
-   <a class="reference internal" href="surf.html">
-    Surf
-   </a>
-  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="rafting.html">
-   Rafting
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="montañismo.html">
-   Montañismo
+  <a class="reference internal" href="notebooks.html">
+   Content with notebooks
   </a>
  </li>
 </ul>
@@ -117,10 +108,13 @@ const thebe_selector_output = ".output, .cell_output"
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  Consulta los<a href="https://www.turismo.gob.ec/wp-content/uploads/2022/01/FERIADOS-NACIONALES_2022.pdf"> feriados nacionales 2022</a>
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
 </div>
 
 </div>
+
+
+          
 
 
           
@@ -147,9 +141,12 @@ const thebe_selector_output = ".output, .cell_output"
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
+        <a class="dropdown-buttons"
+            href="_sources/Guayaquil.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/intro.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/Guayaquil.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -169,7 +166,7 @@ const thebe_selector_output = ".output, .cell_output"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FGuayaquil.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -185,11 +182,51 @@ const thebe_selector_output = ".output, .cell_output"
 
             <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Guayaquil.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
         </div>
 
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#an-example-cell">
+   An example cell
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">
+   Create a notebook with MyST Markdown
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">
+   Quickly add YAML metadata for MyST Notebooks
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -197,52 +234,86 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Guayaquil</h1>
+                <h1>Notebooks with MyST Markdown</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#an-example-cell">
+   An example cell
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">
+   Create a notebook with MyST Markdown
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">
+   Quickly add YAML metadata for MyST Notebooks
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="welcome-to-your-jupyter-book">
-<h1>Guayaquil - Ecuador<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Permalink to this headline">¶</a></h1>
-<p>Guayaquil, oficialmente Santiago de Guayaquil, es la ciudad capital de la Provincia del Guayas y cabecera del cantón homónimo.
-   Es la segunda ciudad más poblada de Ecuador, después de Quito, la capital del país, con una población de 2.7 millones de habitantes
-   de acuerdo a las proyecciones poblacionales del Instituto Nacional de Estadística y Censos (INEC). Es el principal centro económico, 
-   de recursos culturales y financieros de la costa ecuatoriana. <br>
-   Se encuentra ubicada en la costa del Océano Pacífico en la región litoral de Ecuador. La zona este de Guayaquil está a orillas del 
-   río Guayas, a unos 20 kilómetros de su desembocadura en el Océano Pacífico. Está rodeada por el Estero Salado en su parte suroccidental
-   y el inicio de la cordillera Chongón Colonche, una cadena de montañas de altitud media, en el noroeste. El golfo de Guayaquil es la entrante
-   de agua más grande del océano Pacífico en Sudamérica, sus salientes extremas se fijan en cabo Blanco, en Perú, y la provincia de Santa Elena. 
-   cubriendo una distancia de 230 km. <br>
-   La ciudad se divide en 16 parroquias urbanas, aunque dentro de una nueva administración municipal, su organización consiste de 74 sectores. 
-   La ciudad de Guayaquil se extiende por 347 km² de superficie, de los cuales 316 km², equivalentes al 91,9 % del total, pertenecen a la tierra 
-   firme (suelo); mientras que los restantes 29 km², equivalentes al 8,1 %, pertenecen a los cuerpos de agua que comprenden ríos y esteros. 
-   La conurbación de Guayaquil, que es el área metropolitana de Guayaquil, más allá de los límites de la aglomeración urbana, incluye las ciudades 
-   de Milagro, Daule, Playas, entre otras, dándole una población consolidada de 3 113 725 habitantes. <br>
-   Fundada definitivamente en 1547 como astillero y puerto comercial al servicio de la Corona española, como "Santiago de Guayaquil", luego de varios 
-   otros intentos de fundación, ha servido de punto principal en la economía de la nación.10​ Ha sido sede de grandes revoluciones y levantamientos en 
-   el curso de la historia, siendo la primera ciudad ecuatoriana en obtener de forma definitiva su independencia de España en 1820. Luego fue capital 
-   de la Provincia Libre de Guayaquil, que más tarde fue anexada a la Gran Colombia. Desde 1830 forma parte de la República del Ecuador como importante 
-   eje económico y político. <br>
-   La revolución de marzo que expulsó el militarismo extranjero, la revolución liberal liderada por el general Eloy Alfaro, la revolución de mayo que 
-   cambió el gobierno y la Constitución de la época, son importantes sucesos en la historia de la nación que se han desarrollado en la ciudad.
-   Santiago de Guayaquil se destaca entre las ciudades ecuatorianas por su elevado uso de tránsito masivo, y por su densidad total y la diversidad de su población.
-   El puerto de la ciudad es uno de los más importantes de la costa del Pacífico oriental. El 70 % de las exportaciones privadas del país sale por sus instalaciones, 
-   ingresando el 83 % de las importaciones.
-</p>
-<h2>Barrio Las Peñas</h2>
-<img src="_static/guayaquil1.jpg" alt="50%">
-
-<h2>Cerro Santa Ana</h2>
-<img src="_static/guayaquil2.jpg" alt="50%">
-
-<h2>Malecon 2000</h2>
-<img src="_static/guayaquil3.jpg" alt="50%">
+  <div class="tex2jax_ignore mathjax_ignore section" id="notebooks-with-myst-markdown">
+<h1>Notebooks with MyST Markdown<a class="headerlink" href="#notebooks-with-myst-markdown" title="Permalink to this headline">¶</a></h1>
+<p>Jupyter Book also lets you write text-based notebooks using MyST Markdown.
+See <a class="reference external" href="https://jupyterbook.org/file-types/myst-notebooks.html">the Notebooks with MyST Markdown documentation</a> for more detailed instructions.
+This page shows off a notebook written in MyST Markdown.</p>
+<div class="section" id="an-example-cell">
+<h2>An example cell<a class="headerlink" href="#an-example-cell" title="Permalink to this headline">¶</a></h2>
+<p>With MyST Markdown, you can define code cells with a directive like so:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4
+</pre></div>
+</div>
+</div>
+</div>
+<p>When your book is built, the contents of any <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> blocks will be
+executed with your default Jupyter kernel, and their outputs will be displayed
+in-line with the rest of your content.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Jupyter Book uses <a class="reference external" href="https://jupytext.readthedocs.io/en/latest/">Jupytext</a> to convert text-based files to notebooks, and can support <a class="reference external" href="https://jupyterbook.org/file-types/jupytext.html">many other text-based notebook files</a>.</p>
+</div>
+</div>
+<div class="section" id="create-a-notebook-with-myst-markdown">
+<h2>Create a notebook with MyST Markdown<a class="headerlink" href="#create-a-notebook-with-myst-markdown" title="Permalink to this headline">¶</a></h2>
+<p>MyST Markdown notebooks are defined by two things:</p>
+<ol class="simple">
+<li><p>YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
+See the YAML at the top of this page for example.</p></li>
+<li><p>The presence of <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> directives, which will be executed with your book.</p></li>
+</ol>
+<p>That’s all that is needed to get started!</p>
+</div>
+<div class="section" id="quickly-add-yaml-metadata-for-myst-notebooks">
+<h2>Quickly add YAML metadata for MyST Notebooks<a class="headerlink" href="#quickly-add-yaml-metadata-for-myst-notebooks" title="Permalink to this headline">¶</a></h2>
+<p>If you have a markdown file and you’d like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">markdownfile</span><span class="o">.</span><span class="n">md</span>
+</pre></div>
+</div>
+</div>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -265,13 +336,18 @@ const thebe_selector_output = ".output, .cell_output"
     <script>kernelName = 'python3'</script>
 
               </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            
         </div>
     </div>
     <footer class="footer">
   <p>
     
-      Jefferson Choez Delgado<br/>
-      Jachoez2@utpl.edu.ec<br/>
+      By The Jupyter Book Community<br/>
     
         &copy; Copyright 2021.<br/>
   </p>
@@ -286,4 +362,3 @@ const thebe_selector_output = ".output, .cell_output"
 
   </body>
 </html>
-
