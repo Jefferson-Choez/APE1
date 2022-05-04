@@ -4,10 +4,10 @@ Es llamada "Atenas de Ecuador" por su arquitectura, su diversidad cultural, su a
 Fue fundada el 12 de abril de 1557 sobre las ruinas de la ciudad incaica de Tomebamba y de la ciudad cañari de Guapondélig, por Gil Ramírez Dávalos, bajo órdenes del virrey del Perú Andrés Hurtado de Mendoza. Durante el siglo xx la ciudad mantuvo su crecimiento, fomentando la educación y la cultura, y en 1999 su centro histórico es declarado Patrimonio Cultural de la Humanidad. Es uno de los más importantes centros administrativos, económicos, financieros y comerciales de Ecuador. Las actividades principales de la ciudad son el comercio y la industria; durante los últimos años, Cuenca también se ha consolidado como un atractivo turístico internacional.
 
 ## Parque Nacional Cajas 
-![Imagen](//_static/cuenca1.webp)
+![Imagen](cuenca1.webp)
 
 ## Mirador de Turi
-![Imagen](//_static/cuenca2.jpg)
+![Imagen](cuenca2.jpg)
 
 ## Catedral de la Inmaculada Concepción
-![Imagen](//_static/cuenca3.jpg)
+![Imagen](cuenca3.jpg)
