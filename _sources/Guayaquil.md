@@ -1,54 +1,17 @@
----
-jupytext:
-  cell_metadata_filter: -all
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.11.5
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
 
-# Notebooks with MyST Markdown
+# Guayaquil
+Guayaquil, oficialmente Santiago de Guayaquil, es la ciudad capital de la Provincia del Guayas y cabecera del cantón homónimo. Es la segunda ciudad más poblada de Ecuador, después de Quito, la capital del país, con una población de 2.7 millones de habitantes de acuerdo a las proyecciones poblacionales del Instituto Nacional de Estadística y Censos (INEC). Es el principal centro económico, de recursos culturales y financieros de la costa ecuatoriana.
+Se encuentra ubicada en la costa del Océano Pacífico en la región litoral de Ecuador. La zona este de Guayaquil está a orillas del río Guayas, a unos 20 kilómetros de su desembocadura en el Océano Pacífico. Está rodeada por el Estero Salado en su parte suroccidental y el inicio de la cordillera Chongón Colonche, una cadena de montañas de altitud media, en el noroeste. El golfo de Guayaquil es la entrante de agua más grande del océano Pacífico en Sudamérica, sus salientes extremas se fijan en cabo Blanco, en Perú, y la provincia de Santa Elena. cubriendo una distancia de 230 km.
+La ciudad se divide en 16 parroquias urbanas, aunque dentro de una nueva administración municipal, su organización consiste de 74 sectores. La ciudad de Guayaquil se extiende por 347 km² de superficie, de los cuales 316 km², equivalentes al 91,9 % del total, pertenecen a la tierra firme (suelo); mientras que los restantes 29 km², equivalentes al 8,1 %, pertenecen a los cuerpos de agua que comprenden ríos y esteros. La conurbación de Guayaquil, que es el área metropolitana de Guayaquil, más allá de los límites de la aglomeración urbana, incluye las ciudades de Milagro, Daule, Playas, entre otras, dándole una población consolidada de 3 113 725 habitantes.
+Fundada definitivamente en 1547 como astillero y puerto comercial al servicio de la Corona española, como "Santiago de Guayaquil", luego de varios otros intentos de fundación, ha servido de punto principal en la economía de la nación.10​ Ha sido sede de grandes revoluciones y levantamientos en el curso de la historia, siendo la primera ciudad ecuatoriana en obtener de forma definitiva su independencia de España en 1820. Luego fue capital de la Provincia Libre de Guayaquil, que más tarde fue anexada a la Gran Colombia. Desde 1830 forma parte de la República del Ecuador como importante eje económico y político.
+La revolución de marzo que expulsó el militarismo extranjero, la revolución liberal liderada por el general Eloy Alfaro, la revolución de mayo que cambió el gobierno y la Constitución de la época, son importantes sucesos en la historia de la nación que se han desarrollado en la ciudad. Santiago de Guayaquil se destaca entre las ciudades ecuatorianas por su elevado uso de tránsito masivo, y por su densidad total y la diversidad de su población. El puerto de la ciudad es uno de los más importantes de la costa del Pacífico oriental. El 70 % de las exportaciones privadas del país sale por sus instalaciones, ingresando el 83 % de las importaciones.
 
-Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See [the Notebooks with MyST Markdown documentation](https://jupyterbook.org/file-types/myst-notebooks.html) for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.
+## Barrio las Peñas 
+![Imagen](guayaquil1.jpg)
 
-## An example cell
+## Cerro Santa Ana
+![Imagen](guayaquil2.jpg)
 
-With MyST Markdown, you can define code cells with a directive like so:
+## Malecon 2000
+![Imagen](guayaquil3.jpg)
 
-```{code-cell}
-print(2 + 2)
-```
-
-When your book is built, the contents of any `{code-cell}` blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.
-
-```{seealso}
-Jupyter Book uses [Jupytext](https://jupytext.readthedocs.io/en/latest/) to convert text-based files to notebooks, and can support [many other text-based notebook files](https://jupyterbook.org/file-types/jupytext.html).
-```
-
-## Create a notebook with MyST Markdown
-
-MyST Markdown notebooks are defined by two things:
-
-1. YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
-   See the YAML at the top of this page for example.
-2. The presence of `{code-cell}` directives, which will be executed with your book.
-
-That's all that is needed to get started!
-
-## Quickly add YAML metadata for MyST Notebooks
-
-If you have a markdown file and you'd like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:
-
-```
-jupyter-book myst init path/to/markdownfile.md
-```

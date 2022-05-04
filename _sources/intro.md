@@ -4,7 +4,7 @@
 
 # Destinos
 
-* [Guayaquil](//Guayaquil.md/)
-* [Quito](//Quito.md/)
-* [Cuenca](//Cuenca.md/)
+* [Guayaquil](Guayaquil.md)
+* [Quito](Quito.md)
+* [Cuenca](Cuenca.md)
 
